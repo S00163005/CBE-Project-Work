@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace testProject2
+namespace testProject4
 {
     /// <summary>
-    /// Interaction logic for Page1.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class Page1 : Page
+    public partial class MainWindow : Window
     {
-        public Page1()
+        public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
         }
     }
 }
