@@ -7,7 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="303,170,0,0" VerticalAlignment="Top" Width="175" Height="66" Click="Button_Click" FontSize="30"/>
+        <Button Content="Close" HorizontalAlignment="Left" Margin="303,31,0,0" VerticalAlignment="Top" Width="175" Height="66" Click="Button_Click" FontSize="30"/>
+        <Image HorizontalAlignment="Left" Height="177" Margin="0,232,0,0" VerticalAlignment="Top" Width="189" Stretch="Fill" Source="pack://application:,,,/Images/lotto.jpg">
+            <Image.OpacityMask>
+                <ImageBrush/>
+            </Image.OpacityMask>
+        </Image>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="543,126,0,0" TextWrapping="Wrap" Text="First Number" VerticalAlignment="Top" Width="132"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="543,164,0,0" TextWrapping="Wrap" Text="Second Number" VerticalAlignment="Top" Width="132"/>
+        <TextBlock HorizontalAlignment="Left" Height="77" Margin="543,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"/>
+        <Label Content="Answer" HorizontalAlignment="Left" Margin="472,252,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="543,217,0,0" VerticalAlignment="Top" Width="75" Click="Button_Calculate"/>
 
     </Grid>
 </Window>

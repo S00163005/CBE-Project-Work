@@ -29,5 +29,10 @@ namespace testProject4
         {
             this.Close();
         }
+
+        private void Button_Calculate(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
