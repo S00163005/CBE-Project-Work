@@ -9,6 +9,7 @@
       Title="Page1">
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="309,170,0,0" VerticalAlignment="Top" Width="207" Height="68" Click="Button_Click" FontSize="30"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="309,274,0,0" VerticalAlignment="Top" Width="207" Height="68" Click="Button_Click" FontSize="30"/>
 
     </Grid>
 </Page>
